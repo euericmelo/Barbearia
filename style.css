@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+    }
+    body{
+    background-color:green;
+    color:white;
+    }
+    a{
+    text-decoration:none;
+    color:white;
+    }
+    h3{
+    text-align:center;
+    }
+    h3 strong{
+    color:red;
+    }
+    header{
+    display:flex;
+    background-color:black;
+    width:100%;
+    align-content:center;
+    align-items:center;
+    padding:12px;
+    position:fixed;
+    top:0;
+    }
+    .navbar{
+    display:flex;
+    justify-content:flex-end;
+    gap:7px;
+    width:80%;
+    }
+    .navbar a:hover{
+    color:red;
+    }
+    .logo{
+    font-size:1.2rem;
+    border:bottom;
+    }
+    /* MAIN 01 */
+    #main1{
+    background-image:url("./img/main1.jpeg")
+    }
+    .conteudomain{
+    padding-top:3rem;
+    }
+    .conteudomain p{
+    margin:12px;
+    padding-bottom:20px;
+    }
+    h2{
+    text-align:center;
+    }
+    /* SOBRE */
+    #sobre{
+    background-image:url("./img/main1.jpeg")
+    }
+    
+    /* BARRAS */
+    .barras{
+    margin:12px;
+    padding-bottom:20px;
+    }
+    .barra{
+    background-color:black;
+    color:whiter;
+    font-size:1.1rem;
+    border-radius:8px;
+    margin:8px;
+    padding:4px;
+    }
+    .barrai{
+    display:flex;
+    gap:6px;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
+    }
+    
+    .redes{
+    display:flex;
+    margin:6px;
+    }
+    
+    /* PRODUTOS */
+    .produtos{
+    
+    }
+    .produto{
+    background-color:black;
+    color:whiter;
+    font-size:1.1rem;
+    border-radius:8px;
+    margin:12px;
+    padding:4px;
+    }
+    
+    /* RESPONSIVIDADE */
+     @media(max-width:550px){
+    }
